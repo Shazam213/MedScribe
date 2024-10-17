@@ -45,7 +45,7 @@ cd Medscribe
 pip install -r requirements.txt
 ```
 - You would need to download the model parameters:
-Link to download
+![Link to download](https://drive.google.com/drive/folders/19_S8cv7qSK1Qkj39krg_KH6A2ehp0PGS?usp=sharing)
 After downloading place all the files inside the __/backend/models__ directory.
 - Backend Setup
 ```
@@ -173,7 +173,9 @@ Finally, we apply various denoising techniques to the output text. Once the text
 
 ## Demo
 
+[demo.webm](https://github.com/user-attachments/assets/f00a7aa5-2ea0-45c9-abde-9719274d69f9)
 
+Demo video also available in the resource directory.
 
 ## Conclusion
 
