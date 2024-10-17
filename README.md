@@ -156,14 +156,19 @@ Finally, we apply various denoising techniques to the output text. Once the text
 
 ## Results:
 - Original Picture:
+
 ![](./backend/test/test.png)
 - Preprocesssing:
+  
 ![](./resources/processed_image.jpg)
 - Segmentation:
+  
 ![](./resources/image_with_bounding_boxes.jpg)
 - Masked Image:
+  
 ![](./resources/masked_img.jpg)
 - Final Result:
+  
 ![](./resources/Screenshot%20from%202024-10-18%2004-50-33.png)
 
 ## Demo
