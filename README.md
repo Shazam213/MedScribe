@@ -45,7 +45,7 @@ cd Medscribe
 pip install -r requirements.txt
 ```
 - You would need to download the model parameters:
-![Link to download](https://drive.google.com/drive/folders/19_S8cv7qSK1Qkj39krg_KH6A2ehp0PGS?usp=sharing)
+[Link to download](https://drive.google.com/drive/folders/19_S8cv7qSK1Qkj39krg_KH6A2ehp0PGS?usp=sharing)
 After downloading place all the files inside the __/backend/models__ directory.
 - Backend Setup
 ```
