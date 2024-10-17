@@ -1,11 +1,10 @@
-
 {
   "postcss": {
-  "plugins": {
-    "tailwindcss": {},
-    "autoprefixer": {}
-  }
-},
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
   "name": "soham_task",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +13,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.453.0",
