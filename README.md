@@ -2,21 +2,19 @@
 MedScribe is an advanced Optical Character Recognition (OCR) system designed specifically for digitizing medical documents. The project integrates a React frontend and a Python Flask backend to process PDFs and images, extract text using an OCR pipeline, and return the extracted data to the frontend in a user-friendly interface.
 
 ## Table of Contents
-1. Overview
-2. Features
-3. Installation and Setup
-4. Backend Setup
-5. Frontend Setup
-6. Usage
-7. Project Structure
-8. Technical Report:
-    - Abstract
-    - Introduction
-    - Methodology
-    - Results
-    - Discussion
-    - Conclusion
-    - References
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation and Setup](#installation-and-setup)
+4. [Usage](#usage)
+5. [Project Structure](#project-structure)
+6. [Technical Report:](#technical-report)
+    - [Abstract](#abstract)
+    - [Introduction](#introduction)
+    - [Methodology](#methodology)
+    - [Results](#results)
+    - [Demo](#demo)
+    - [Conclusion](#conclusion)
+   
 
 ## Overview
 MedScribe enables users to upload medical documents, process them using an OCR engine, and extract textual data from PDFs or images. The platform supports multiple document types and is designed for healthcare professionals and individuals who need to digitize medical records and reports.
@@ -156,7 +154,7 @@ Handwritten text detection model:
 
 Finally, we apply various denoising techniques to the output text. Once the text is cleaned up, we send the processed output back to the frontend in JSON format, allowing for easy editing and further manipulation on the client side.
 
-### Results:
+## Results:
 - Original Picture:
 ![](./backend/test/test.png)
 - Preprocesssing:
@@ -168,11 +166,11 @@ Finally, we apply various denoising techniques to the output text. Once the text
 - Final Result:
 ![](./resources/Screenshot%20from%202024-10-18%2004-50-33.png)
 
-### Demo
+## Demo
 
 
 
-### Conclusion
+## Conclusion
 
-MedScribe successfully digitizes medical records by extracting text from PDFs and images using Tesseract-OCR. This system offers significant advantages for medical professionals looking to digitize their workflow. Future work will focus on improving accuracy for handwritten notes and more complex document types.
+MedScribe successfully digitizes medical records by extracting text from PDFs and images using a combination of Tesseract-OCR and custom trained model. This system offers significant advantages for medical professionals looking to digitize their workflow. Future work will focus on improving accuracy for handwritten notes and more complex document types.
 
